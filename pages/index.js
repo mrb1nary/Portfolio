@@ -30,7 +30,9 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="cursor-pointer text-3xl hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-tr hover:from-red-500 hover:to-orange-600 font-burtons dark:text-white dark:hover:text-transparent dark:hover:bg-clip-text dark:hover:bg-gradient-to-tr dark:hover:from-red-500 dark:hover:to-orange-600 ">mrb1nary</h1>
+            <h1 className="cursor-pointer text-3xl hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-tr hover:from-red-500 hover:to-orange-600 font-burtons dark:text-white dark:hover:text-transparent dark:hover:bg-clip-text dark:hover:bg-gradient-to-tr dark:hover:from-red-500 dark:hover:to-orange-600 ">
+              mrb1nary
+            </h1>
             <ul className="flex items-center">
               <li className="cursor-pointer text-xl">
                 <BsFillMoonStarsFill
@@ -41,7 +43,8 @@ export default function Home() {
               <li>
                 <a
                   className="transition-all bg-gradient-to-tr from-cyan-500 to-cyan-700 text-white px-4 py-2 rounded-md ml-8 hover:bg-gradient-to-tr hover:from-cyan-700 hover:to-cyan-500"
-                  href="/resume.pdf" target="blank"
+                  href="/resume.pdf"
+                  target="blank"
                 >
                   Resume
                 </a>
@@ -64,12 +67,30 @@ export default function Home() {
             </p>
           </div>
           <div className="flex justify-center text-5xl gap-16 py-3">
-            <a href="https://twitter.com/JAnubhab" target="_blank"><AiFillTwitterCircle className="cursor-pointer text-twitter" /></a>
-            <a href="https://github.com/mrb1nary" target="_blank"><AiFillGithub
-              className="cursor-pointer"
-              color={darkMode ? "white" : ""}
-            /></a>
-            <a href="https://www.linkedin.com/in/anubhab-nayak-b84b35112/" target="_blank"><AiFillLinkedin className="cursor-pointer text-linkedin" /></a>
+            <a
+              href="https://twitter.com/JAnubhab"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillTwitterCircle className="cursor-pointer text-twitter" />
+            </a>
+            <a
+              href="https://github.com/mrb1nary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillGithub
+                className="cursor-pointer"
+                color={darkMode ? "white" : ""}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/anubhab-nayak-b84b35112/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillLinkedin className="cursor-pointer text-linkedin" />
+            </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 mt-20 p-20 overflow-clip md:w-96 md:h-96">
             <Image
@@ -98,10 +119,17 @@ export default function Home() {
             <div className="text-center text-black shadow-lg p-10 rounded-xl my-10 bg-gradient-to-tr from-cyan-400 to-teal-100 dark:bg-gradient-to-tr dark:from-gray-700 dark:to-gray-300">
               <Image src={amazon} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                <a href="https://clone-ad6ce.web.app/" target="_blank">Amazon Web Clone</a>
+                <a
+                  href="https://clone-ad6ce.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Amazon Web Clone
+                </a>
               </h3>
               <p className="py-4">
-                Fully responsive Amazon Clone with working cart and user authentication made using Firebase and React
+                Fully responsive Amazon Clone with working cart and user
+                authentication made using Firebase and React
               </p>
               <h4 className="py-4 text-teal-800 dark:text-white">
                 Technology used:
@@ -113,10 +141,17 @@ export default function Home() {
             <div className="text-center text-black shadow-lg p-10 rounded-xl my-10 bg-gradient-to-tr from-cyan-400 to-teal-100 dark:bg-gradient-to-tr dark:from-gray-700 dark:to-gray-300">
               <Image src={bitcoin} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                <a href="https://cryptomrb1nary.netlify.app/" target="_blank">Cryptocurrency Tracker</a>
+                <a
+                  href="https://cryptomrb1nary.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Cryptocurrency Tracker
+                </a>
               </h3>
               <p className="py-4">
-                Track live prices of cryptocurrencies using CoinGecko API. Search over 100+ coins from the library
+                Track live prices of cryptocurrencies using CoinGecko API.
+                Search over 100+ coins from the library
               </p>
               <h4 className="py-4 text-teal-800 dark:text-white">
                 Technology used:
@@ -131,7 +166,8 @@ export default function Home() {
                 E-Kaksha
               </h3>
               <p className="py-4">
-                Google Classroom but on steriods. A platform for teachers and students to interact and collaborate
+                Google Classroom but on steriods. A platform for teachers and
+                students to interact and collaborate
               </p>
               <h4 className="py-4 text-teal-800 dark:text-white">
                 Technology used:
@@ -146,7 +182,8 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Screenshots are taken from the live website! Some of the projects are hosted on Firebase and some on Netlify. 
+              Screenshots are taken from the live website! Some of the projects
+              are hosted on Firebase and some on Netlify.
             </p>
           </div>
 
