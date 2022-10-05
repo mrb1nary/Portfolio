@@ -70,14 +70,14 @@ export default function Home() {
             <a
               href="https://twitter.com/JAnubhab"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               <AiFillTwitterCircle className="cursor-pointer text-twitter" />
             </a>
             <a
               href="https://github.com/mrb1nary"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               <AiFillGithub
                 className="cursor-pointer"
@@ -87,7 +87,7 @@ export default function Home() {
             <a
               href="https://www.linkedin.com/in/anubhab-nayak-b84b35112/"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               <AiFillLinkedin className="cursor-pointer text-linkedin" />
             </a>
@@ -122,7 +122,7 @@ export default function Home() {
                 <a
                   href="https://clone-ad6ce.web.app/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                 >
                   Amazon Web Clone
                 </a>
@@ -144,7 +144,7 @@ export default function Home() {
                 <a
                   href="https://cryptomrb1nary.netlify.app/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                 >
                   Cryptocurrency Tracker
                 </a>
