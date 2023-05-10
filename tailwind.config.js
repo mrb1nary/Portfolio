@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         burtons: "burtons",
+        sequel: "sequel",
       },
       textColor: {
         twitter: "#1DA1F2",
@@ -16,5 +17,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-intersect")],
 };
